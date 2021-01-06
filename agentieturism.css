@@ -1,0 +1,72 @@
+body {
+		  margin: 0;
+		  font-family: Arial, Helvetica, sans-serif;
+		  height: 100%;
+		}
+
+		.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.navbar a:hover {
+		  background: #ddd;
+		  color: black;
+		}
+
+		.main {
+  			margin-top: 70px;
+		}
+
+		.bloc {
+		  position: relative;
+		}
+
+		.center {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  font-size: 32px;
+		}
+
+		.bloc_img { 
+		  width: 100%;
+		  height: 750px;
+		  opacity: 0.5;
+		}
+
+		.text_desc {
+			/*
+			position: absolute;
+			top: 12%;
+			left: 7%;
+			transform: translate(-12%, -10%);
+			*/
+			font-size: 16px;
+			background-image: url("desprenoi.jpg");
+			width: 100%;
+			height: auto;
+ 			
+		}
+
+		#desprenoi img {
+			width: 100%;
+			height: 400px;
+			display: block;
+			overflow-y: scroll;
+			opacity: 0.4;
+		}
